@@ -8,9 +8,9 @@ averaged over those 100,000+ words, then multiplied that by 1,000 to get the
 size of a picture in bits:
 
 ```
-A picture is worth ~1000 × 2.91, or ~2909.56 bits
+A picture is worth ~1000 × 2.70, or ~2702.30 bits
 ```
 
-Accordingly, here are a little over 214 pictures of Claude Shannon:
+Accordingly, here are almost 231 pictures of Claude Shannon:
 
-![214 Claude Shannons](claude-shannon.jpg)
+![231 Claude Shannons](claude-shannon.jpg)

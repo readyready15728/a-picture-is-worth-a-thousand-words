@@ -9,6 +9,6 @@ def entropy(s):
 with open('words') as f:
     words = f.readlines()
 
-    entropies = [entropy(word) for word in words]
+    entropies = [entropy(word.strip()) for word in words]
     entropy_avg = sum(entropies) / len(entropies)
     print(f'A picture is worth ~1000 × {entropy_avg:.2f}, or ~{1000 * entropy_avg:.2f} bits')
