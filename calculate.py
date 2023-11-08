@@ -4,7 +4,7 @@ from collections import Counter
 # Shamelessly stolen from Rosetta Code
 def entropy(s):
     p, lns = Counter(s), float(len(s))
-    return -sum( count/lns * math.log(count/lns, 2) for count in p.values())
+    return -sum(count/lns * math.log(count/lns, 2) for count in p.values())
 
 with open('words') as f:
     words = f.readlines()
